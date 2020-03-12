@@ -1,0 +1,37 @@
+.feedback {
+    padding-bottom: 87px;
+    &__block {
+        
+    }
+    &__card {
+        display: flex;
+        padding: 50px 0;
+        border-bottom: 1px solid #f6f6f6;
+        &:nth-child(3) {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+    }
+    &__client {
+        margin-right: 59px;
+        max-width: 175px;
+        height: 175px;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        color: $black-color;
+    }
+    &__subtitle {
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+        margin-top: 10px;
+        margin-bottom: 22px;
+    }
+    &__text {
+        font-size: 16px;
+        font-weight: 500;
+        color: $black-color;
+    }
+}

@@ -1,0 +1,21 @@
+.consult {
+    min-height: 680px;
+    padding: 100px 0 92px 0;
+    background: url('../../img/bg2.jpg') center (center/cover) no-repeat;
+    color: $light-color;
+    &__desc {
+        font-size: 20px;
+        font-weight: 500;
+        margin-top: 80px;
+    }
+    .error {
+        border: 1px solid red;
+        text-align: center;
+    }
+    label.error {
+        color: #fff;
+        border: none;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+}
